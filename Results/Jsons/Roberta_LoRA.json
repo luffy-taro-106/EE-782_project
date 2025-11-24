@@ -1,0 +1,23 @@
+{
+    "dataset": "AG-News",
+    "model": "roberta-base",
+    "method": "LoRA (r=8, α=32)",
+    "trainable_params": 888580,
+    "trainable_pct": 0.0071,
+    "test_metric": 0.9412,
+    "peak_memory_gb": 4.31,
+    "time_total_s": 6120.4,
+    "time_per_epoch_s": 765.0,
+    "throughput_examples_s": 1702.8,
+    "val_history": [
+        0.9314,
+        0.9361,
+        0.9388,
+        0.9397,
+        0.9403,
+        0.9407,
+        0.9412,
+        0.9412
+    ],
+    "steps_to_95_pct": 4
+}

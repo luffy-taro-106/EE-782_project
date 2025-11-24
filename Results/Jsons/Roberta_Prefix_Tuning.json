@@ -1,0 +1,23 @@
+{
+    "dataset": "AG-News",
+    "model": "roberta-base",
+    "method": "Prefix-Tuning (20 tokens)",
+    "trainable_params": 352000,
+    "trainable_pct": 0.0028,
+    "test_metric": 0.9265,
+    "peak_memory_gb": 3.85,
+    "time_total_s": 4982.7,
+    "time_per_epoch_s": 622.8,
+    "throughput_examples_s": 1821.4,
+    "val_history": [
+        0.9150,
+        0.9204,
+        0.9230,
+        0.9241,
+        0.9252,
+        0.9258,
+        0.9265,
+        0.9265
+    ],
+    "steps_to_95_pct": 5
+}

@@ -1,0 +1,23 @@
+{
+    "dataset": "CommonGen",
+    "model": "bart-base",
+    "method": "LoRA (r=8, α=32)",
+    "trainable_params": 920000,
+    "trainable_pct": 0.0066,
+    "test_metric": 0.329,
+    "peak_memory_gb": 5.10,
+    "time_total_s": 8841.2,
+    "time_per_epoch_s": 1105.1,
+    "throughput_examples_s": 740.4,
+    "val_history": [
+        0.276,
+        0.298,
+        0.309,
+        0.316,
+        0.321,
+        0.325,
+        0.328,
+        0.329
+    ],
+    "steps_to_95_pct": 6
+}
